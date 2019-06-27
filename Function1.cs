@@ -24,7 +24,7 @@ namespace ImageProcessor
 
             // Get the blobname from the event's JObject. updated PR
             string blobName = name;
-
+// done
             // Retrieve storage account from connection string.
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(storageAccountConnectionString);
 
