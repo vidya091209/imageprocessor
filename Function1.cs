@@ -22,9 +22,9 @@ namespace ImageProcessor
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {inputBlob.Length} Bytes");
           
 
-            // Get the blobname from the event's JObject.
+            // Get the blobname from the event's JObject. updated PR
             string blobName = name;
-
+// done
             // Retrieve storage account from connection string.
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(storageAccountConnectionString);
 
